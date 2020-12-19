@@ -5,7 +5,7 @@
   "private": true,
   "main": "index.js",
   "dependencies": {
-    "pathkit-asmjs": "^0.4.0",
+    "pathkit-asmjs": "^0.7.0",
     "pathkit-wasm": "^0.4.0"
   },
   "devDependencies": {
