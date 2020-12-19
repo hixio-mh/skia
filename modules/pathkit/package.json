@@ -6,7 +6,7 @@
   "main": "index.js",
   "dependencies": {
     "pathkit-asmjs": "^0.4.0",
-    "pathkit-wasm": "^0.4.0"
+    "pathkit-wasm": "^0.7.0"
   },
   "devDependencies": {
     "is-docker": "~1.1.0",
