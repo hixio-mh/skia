@@ -18,6 +18,6 @@
   "license": "BSD-3-Clause",
   "devDependencies": {
     "dtslint": "^4.0.4",
-    "typescript": "^4.0.3"
+    "typescript": "^4.3.5"
   }
 }
