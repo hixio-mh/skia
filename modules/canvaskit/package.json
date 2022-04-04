@@ -4,7 +4,9 @@
   "description": "private",
   "private": true,
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "@snyk/protect": "latest"
+  },
   "devDependencies": {
     "is-docker": "~1.1.0",
     "jasmine-core": "~3.1.0",
@@ -15,8 +17,11 @@
     "requirejs": "~2.3.5"
   },
   "scripts": {
-    "test": "make test-continuous"
+    "test": "make test-continuous",
+    "prepublish": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "author": "",
-  "license": "BSD-3-Clause"
+  "license": "BSD-3-Clause",
+  "snyk": true
 }
